@@ -1,0 +1,29 @@
+// Arquivo p/ criação de tables.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Video {
+  //Campo id; Tipo string; @PrimaryKey; @Gera um id unico.
+  id            String   @id @default(uuid())
+  name          String
+  path          String
+  transcription String?
+  createdAt     DateTime @default(now())
+}
+
+model Prompt {
+  id       String @id @default(uuid())
+  title    String
+  template String
+}
+
+// Cada model é uma table
+// Cria automaticamente as migrations
+// O prisma tem a propria sintaxe de DDL
