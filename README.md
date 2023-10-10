@@ -61,7 +61,7 @@ Esse projeto revolucionário, elaborado durante o evento nlw-IA ministrado por [
 ##### 💻 frontend:
 
 <p align="center"> 
-  ![localhost_5173_](https://github.com/Villa-Nova/Upload_IA/assets/112735648/899ada25-2ace-408f-a1ec-c0863f6a1ea1)
+  ![Print one](https://github.com/Villa-Nova/Upload_IA/assets/112735648/899ada25-2ace-408f-a1ec-c0863f6a1ea1)
 </p>
 
 ## 📦 Instalação
